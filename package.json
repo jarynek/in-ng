@@ -9,9 +9,15 @@
   "author": "jarek <spurny.jarek@seznam.cz> (https://github.com/jarynek)",
   "license": "MIT",
   "files": [
+    "template/",
+    "configs/",
+    "bin/",
     "saofile.js",
-    "template"
+    "README.md"
   ],
+  "bin": {
+    "in-ng": "./bin/in-ng.js"
+  },
   "scripts": {
     "test": "ava"
   },
