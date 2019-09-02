@@ -42,6 +42,14 @@ module.exports = {
           return `lala/${username}`
         },
         store: true
+      },
+      {
+        name: 'lala two',
+        message: 'The lala dvě',
+        default({ username }) {
+          return `lala2/${username}`
+        },
+        store: true
       }
     ]
   },
