@@ -1,0 +1,25 @@
+{
+  "name": "sao-in-ng",
+  "version": "1.0.0",
+  "description": "my tiptop SAO generator",
+  "repository": {
+    "url": "jarek/sao-in-ng",
+    "type": "git"
+  },
+  "author": "jarek <spurny.jarek@seznam.cz> (https://github.com/jarynek)",
+  "license": "MIT",
+  "files": [
+    "saofile.js",
+    "template"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "superb": "^1.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "sao": "^1.0.0"
+  }
+}
