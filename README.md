@@ -16,6 +16,7 @@ npm i -g sao
 
 ```bash
 sao in-ng my-project
+in-ng my-project (new?)
 ```
 
 ### From git
